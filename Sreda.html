@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>SREDA</title>
+    <link rel="stylesheet" href="SredaStyle.css" asp-append-version="true" />
+    <link rel="stylesheet" href="SredaCardStyle.css" asp-append-version="true" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">\
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: #F1EDE6;">
+    <header class="headerstyle">
+        <nav>
+            <div class="headmenu" id="headmenu">
+                <div style="display: flex; align-items: center;">
+                    <img id="bm-openbutton" style="margin-left: 8px; margin-right: 40px;" src="Assets/SVG/MENU.svg"></img>
+                    <div id="burgermenu" class="burger-menu__nav">
+                        <div class="findclose">
+                            <div class="findline">
+                                <div>
+                                    <object type="image/svg+xml" style="margin-right: 11px;" data="Assets/SVG/ZOOM.svg"></object>
+                                    <a class="burger-menu__text" style="color: #6F6E6B;">Поиск</a>
+                                </div>
+                                <object type="image/svg+xml" data="Assets/SVG/LINE.svg"></object>
+                            </div>
+                            <img id="bm-closebutton" src="Assets/SVG/CLOSE.svg"></img>
+                        </div>
+                        <div class="verticalmenu" style="margin-bottom: 40px;">
+                            <a class="burger-menu__text" style="color: #191919;">Вечерние платья</a>
+                            <a class="burger-menu__text" style="color: #191919;">Брюки</a>
+                            <a class="burger-menu__text" style="color: #191919;">Костюмы</a>
+                            <a class="burger-menu__text" style="color: #191919;">Пиджаки</a>
+                            <a class="burger-menu__text" style="color: #191919;">Рубашки</a>
+                        </div>
+                        <div class="verticalmenu" style="margin-bottom: 52px;">
+                            <a class="burger-menu__text" style="color: #191919;">Акции</a>
+                            <a class="burger-menu__text" style="color: #191919;">О нас</a>
+                        </div>
+                        <div class="inst">
+                            <object type="image/svg+xml" data="Assets/SVG/INST.svg"></object>
+                            <a class="burger-menu__text" style="color: #191919;">@sreda__brand</a>
+                        </div>
+                    </div>
+
+                    <div id="bm-overlay" class="burger-menu__overlay"></div>
+                </div>
+                <img onclick="window.location.href = 'Sreda.html';" src="Assets/SVG/SREDA.svg"></img>
+                <div style="margin-right: 7px; display: flex; align-items: center; gap: 12px;">
+                    <object type="image/svg+xml" data="Assets/SVG/STAR.svg"></object>
+                    <object type="image/svg+xml" data="Assets/SVG/BAG.svg"></object>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main style="background-color: #F1EDE6; margin-top: 62px;">
+            <div class="filters">
+                <div class="sortfilt">
+                    <a class="firsttext">Отсортировать</a>
+                    <object type="image/svg+xml" data="Assets/SVG/DownArrow.svg"></object>
+                </div>
+                <div class="sortfilt">
+                    <a class="firsttext">Отфильтровать</a>
+                    <object type="image/svg+xml" data="Assets/SVG/DownArrow.svg"></object>
+                </div>
+            </div>
+        <div class="container" style="margin-bottom: 20px;">
+            <div class="row" style="row-gap: 3px; column-gap: 6px;">
+                <div onclick="window.location.href = 'Sreda-Card.html';" class="col p-0 Card rounded-0">
+                    <img src="Assets/PNG/WOMAN.png" style="max-width: 100%;">
+                    <div class="description4card">
+                        <div style="width: 100%; margin-bottom: 5px; display: flex; justify-content: space-between;">
+                            <a style="margin-left: 9px;">Платье</a>
+                            <object style="margin-right: 9px;" type="image/svg+xml" data="Assets/SVG/LittleStar.svg"></object>
+                        </div>
+                        <a style="margin-left: 9px; margin-bottom: 18px;">12000р</a>
+                    </div>
+                </div>
+                <div onclick="window.location.href = 'Sreda-Card.html';" class="col p-0 Card rounded-0">
+                    <img src="Assets/PNG/WOMAN2.png" style="max-width: 100%;">
+                    <div class="description4card">
+                        <div style="width: 100%; margin-bottom: 5px; display: flex; justify-content: space-between;">
+                            <a style="margin-left: 9px;">Платье</a>
+                            <object style="margin-right: 9px;" type="image/svg+xml" data="Assets/SVG/LittleStar.svg"></object>
+                        </div>
+                        <a style="margin-left: 9px; margin-bottom: 18px;">12000р</a>
+                    </div>
+                </div>
+                <div class="w-100"></div>
+                <div onclick="window.location.href = 'Sreda-Card.html';" class="col p-0 Card rounded-0">
+                    <img src="Assets/PNG/WOMAN3.png" style="max-width: 100%;">
+                    <div class="description4card">
+                        <div style="width: 100%; margin-bottom: 5px; display: flex; justify-content: space-between;">
+                            <a style="margin-left: 9px;">Платье</a>
+                            <object style="margin-right: 9px;" type="image/svg+xml" data="Assets/SVG/LittleStar.svg"></object>
+                        </div>
+                        <a style="margin-left: 9px; margin-bottom: 18px;">12000р</a>
+                    </div>
+                </div>
+                <div onclick="window.location.href = 'Sreda-Card.html';" class="col p-0 Card rounded-0">
+                    <img src="Assets/PNG/WOMAN4.png" style="max-width: 100%;">
+                    <div class="description4card">
+                        <div style="width: 100%; margin-bottom: 5px; display: flex; justify-content: space-between;">
+                            <a style="margin-left: 9px;">Платье</a>
+                            <object style="margin-right: 9px;" type="image/svg+xml" data="Assets/SVG/LittleStar.svg"></object>
+                        </div>
+                        <a style="margin-left: 9px; margin-bottom: 18px;">12000р</a>
+                    </div>
+                </div>
+                <div class="w-100"></div>
+                <div onclick="window.location.href = 'Sreda-Card.html';" class="col p-0 Card rounded-0">
+                    <img src="Assets/PNG/WOMAN5.png" style="max-width: 100%;">
+                    <div class="description4card">
+                        <div style="width: 100%; margin-bottom: 5px; display: flex; justify-content: space-between;">
+                            <a style="margin-left: 9px;">Платье</a>
+                            <object style="margin-right: 9px;" type="image/svg+xml" data="Assets/SVG/LittleStar.svg"></object>
+                        </div>
+                        <a style="margin-left: 9px; margin-bottom: 18px;">12000р</a>
+                    </div>
+                </div>
+                <div onclick="window.location.href = 'Sreda-Card.html';" class="col p-0 Card rounded-0">
+                    <img src="Assets/PNG/WOMAN6.png" style="max-width: 100%;">
+                    <div class="description4card">
+                        <div style="width: 100%; margin-bottom: 5px; display: flex; justify-content: space-between;">
+                            <a style="margin-left: 9px;">Платье</a>
+                            <object style="margin-right: 9px;" type="image/svg+xml" data="Assets/SVG/LittleStar.svg"></object>
+                        </div>
+                        <a style="margin-left: 9px; margin-bottom: 18px;">12000р</a>
+                    </div>
+                </div>
+                <div class="w-100"></div>
+                <div onclick="window.location.href = 'Sreda-Card.html';" class="col p-0 Card rounded-0">
+                    <img src="Assets/PNG/WOMAN7.png" style="max-width: 100%;">
+                    <div class="description4card">
+                        <div style="width: 100%; margin-bottom: 5px; display: flex; justify-content: space-between;">
+                            <a style="margin-left: 9px;">Платье</a>
+                            <object style="margin-right: 9px;" type="image/svg+xml" data="Assets/SVG/LittleStar.svg"></object>
+                        </div>
+                        <a style="margin-left: 9px; margin-bottom: 18px;">12000р</a>
+                    </div>
+                </div>
+                <div onclick="window.location.href = 'Sreda-Card.html';" class="col p-0 Card rounded-0">
+                    <img src="Assets/PNG/WOMAN7.png" style="max-width: 100%;">
+                    <div class="description4card">
+                        <div style="width: 100%; margin-bottom: 5px; display: flex; justify-content: space-between;">
+                            <a style="margin-left: 9px;">Платье</a>
+                            <object style="margin-right: 9px;" type="image/svg+xml" data="Assets/SVG/LittleStar.svg"></object>
+                        </div>
+                        <a style="margin-left: 9px; margin-bottom: 18px;">12000р</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="Assets/Scripts/Open-Close-BMenu.js"></script>
+</html>

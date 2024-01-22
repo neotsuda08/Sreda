@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>CARD</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="SredaStyle.css" asp-append-version="true" />
+    <link rel="stylesheet" href="SredaCardStyle.css" asp-append-version="true" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;500&family=Jura:wght@500&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: #F1EDE6;">
+    <header class="headerstyle">
+        <nav>
+            <div class="headmenu" id="headmenu">
+                <div style="display: flex; align-items: center;">
+                    <img id="bm-openbutton" style="margin-left: 8px; margin-right: 40px;" src="Assets/SVG/MENU.svg"></img>
+                    <div id="burgermenu" class="burger-menu__nav">
+                        <div class="findclose">
+                            <div class="findline">
+                                <div>
+                                    <object type="image/svg+xml" style="margin-right: 11px;" data="Assets/SVG/ZOOM.svg"></object>
+                                    <a class="burger-menu__text" style="color: #6F6E6B;">Поиск</a>
+                                </div>
+                                <object type="image/svg+xml" data="Assets/SVG/LINE.svg"></object>
+                            </div>
+                            <img id="bm-closebutton" src="Assets/SVG/CLOSE.svg"></img>
+                        </div>
+                        <div class="verticalmenu" style="margin-bottom: 52px;">
+                            <a class="burger-menu__text" style="color: #191919;">Вечерние платья</a>
+                            <a class="burger-menu__text" style="color: #191919;">Брюки</a>
+                            <a class="burger-menu__text" style="color: #191919;">Костюмы</a>
+                            <a class="burger-menu__text" style="color: #191919;">Пиджаки</a>
+                            <a class="burger-menu__text" style="color: #191919;">Рубашки</a>
+                        </div>
+                        <div class="verticalmenu" style="margin-bottom: 62px;">
+                            <a class="burger-menu__text" style="color: #191919;">Акции</a>
+                            <a class="burger-menu__text" style="color: #191919;">О нас</a>
+                        </div>
+                        <div class="inst">
+                            <object type="image/svg+xml" data="Assets/SVG/INST.svg"></object>
+                            <a class="burger-menu__text" style="color: #191919;">@sreda__brand</a>
+                        </div>
+                    </div>
+
+                    <div id="bm-overlay" class="burger-menu__overlay"></div>
+                </div>
+                <img onclick="window.location.href = 'Sreda.html';" src="Assets/SVG/SREDA.svg"></img>
+                <div style="margin-right: 7px; display: flex; align-items: center; gap: 12px;">
+                    <object type="image/svg+xml" data="Assets/SVG/STAR.svg"></object>
+                    <object type="image/svg+xml" data="Assets/SVG/BAG.svg"></object>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main style="background-color: #F1EDE6; margin-top: 69px;">
+        <div class="contforSwiper">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="picinswiper" src="Assets/PNG/SLIDE2.png"></img>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="picinswiper" src="Assets/PNG/SLIDE1.png"></img>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="picinswiper" src="Assets/PNG/SLIDE3.png"></img>
+                    </div>
+                    <div class="swiper-slide">
+                        <video height="529" autoplay loop muted playsinline>
+                            <source src="Assets/Videos/Video2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="swiper-pagination" style="padding-top: 10px;"></div>
+            </div>
+            <img src="Assets/SVG/RU.svg" height="27px" class="imgRU">
+            <div class="sizecontswiper">
+                Модель: <span>S</span>
+            </div>
+        </div>
+
+        <div class="discriptionCont">
+            <div class="BlockDiv">
+                <a class="TextForTitleCard">Жакет с бахромой и юбка</a>
+                <div class="contforcost">
+                    <a id="crosstext" class="TextforBlock">23 000₽</a>
+                    <a id="redtext" class="TextforBlock">20 000₽</a>
+                </div>
+
+            </div>
+
+            <div class="BlockDiv">
+                <div class="RowCont">
+                    <div class="circlecolorbl">
+                        <div class="circlecolorwh"></div>
+                    </div>
+                    <div class="circlecolorbl">
+                        <div class="circlecolorwh"></div>
+                    </div>
+                    <div class="circlecolorbl">
+                        <div class="circlecolorwh"></div>
+                    </div>
+                    <div class="circlecolorbl">
+                        <div class="circlecolorwh"></div>
+                    </div>
+                </div>
+                <a class="TextforBlock">Коричневый</a>
+            </div>
+
+            <div class="BlockDiv">
+                <div class="RowCont">
+                    <div id="SizeXS" class="sizesquare">
+                        <a class="sizetext">XS</a>
+                    </div>
+
+                    <div id="SizeS" class="sizesquare">
+                        <a class="sizetext">S</a>
+                    </div>
+
+                    <div id="SizeM" class="sizesquare">
+                        <a class="sizetext">M</a>
+                    </div>
+
+                    <div id="SizeL" class="sizesquare">
+                        <a class="sizetext">L</a>
+                    </div>
+                </div>
+                <a class="TextforBlock">Размер</a>    
+            </div>
+        </div>
+        <div class="contforbutton">
+            <div class="AddInCart">Выбирите размер</div>
+        </div>
+        <div class="contforallinfo">
+            <div id="contsize" class="contforfirstinfo">
+                <div id="presssize" class="contfortitleinfo">
+                    <a>Подберите свой размер</a>
+                    <img id="contsizebutton" src="Assets/SVG/DownArrow.svg"></img>
+                </div>
+                    <div class="contforsecondinfo">
+                        <a class="textforsecondinfo">
+                            Размерная сетка магазина “Sreda” включает размеры: XS, S, L, M. В коллекциях встречаются<br>и размеры XL, мы можем выполнить его на заказ.<br>Также есть вещи свободного кроя - размера<br>ONE SIZE
+                        </a>
+                        <a class="textforsecondinfo">
+                            Для вашего удобства мы всегда указываем<br>параметры модели, предстовляющей товар на сайте.<br>Если вы сомневаетесь в выборе размера,<br>пожалуйста звоните нам по номеру +7 914 428-40-18
+                        </a>
+                    </div>
+                    <table class="tableSize">
+                        <tr>
+                            <th class="tablefirst tablefirstheader">Размер</th>
+                            <th>Ru</th>
+                            <th>Обхват груди, см</th>
+                            <th>Обхват талии, см</th>
+                            <th class="tablelast tablelastheader">Обхват бёдер, см</th>
+                        </tr>
+                        <tr>
+                            <td class="tablefirst firstelement">XS</td>
+                            <td class="firstelement">40</td>
+                            <td class="firstelement">80</td>
+                            <td class="firstelement">60</td>
+                            <td class="tablelast firstelement">88</td>
+                        </tr>
+                        <tr>
+                            <td class="tablefirst">S</td>
+                            <td>42</td>
+                            <td>84</td>
+                            <td>64</td>
+                            <td class="tablelast">92</td>
+                        </tr>
+                        <tr>
+                            <td class="tablefirst">M</td>
+                            <td>44</td>
+                            <td>88</td>
+                            <td>68</td>
+                            <td class="tablelast">96</td>
+                        </tr>
+                        <tr>
+                            <td class="tablefirst">L</td>
+                            <td>46</td>
+                            <td>92</td>
+                            <td>72</td>
+                            <td class="tablelast">100</td>
+                        </tr>
+                        <tr>
+                            <td class="tablefirst lastelement">XL</td>
+                            <td class="lastelement">48</td>
+                            <td class="lastelement">96</td>
+                            <td class="lastelement">76</td>
+                            <td class="tablelast lastelement">104</td>
+                        </tr>
+                    </table>
+            </div>
+            <div class="blackline"></div>
+            <div id="contdescription" class="contforfirstinfo">
+                <div id="descriptionChild" class="contfortitleinfo">
+                    <a>Описание</a>
+                    <img id="contdescriptionbutton" src="Assets/SVG/DownArrow.svg"></img>
+                </div>
+                <div class="contforsecondinfo" id="descr">
+                    <a class="textforsecondinfo">
+                        Костюм состоит из жакета с бахромой и юбки.<br>Жакет подчеркивает элегантность, а бахрома добавляет<br>игривости. Юбка создает изысканный силуэт<br>и придает образу изысканность. Подходит для<br>особых мероприятий и деловых встреч.
+                    </a>
+                    <a class="textforsecondinfo">
+                        <span class="BoldTextInfo">Состав:</span> 97% Вескоза, 3% Эластан<br>
+                        <span class="BoldTextInfo">Состав подклада:</span> 100%Вескоза<br>
+                        <span class="BoldTextInfo">Тип ткани:</span> Костюмная ткань Италия<br>
+                    </a>
+                </div>
+            </div>
+            <div class="blackline"></div>
+            <div id="contrule" class="contforfirstinfo">
+                <div id="ruleChild" class="contfortitleinfo">
+                    <a>Уход</a>
+                    <img id="contrulebutton" src="Assets/SVG/DownArrow.svg"></img>
+                </div>
+                <div id="ruleChildinfo" class="contforsecondinfo">
+                    <a class="textforsecondinfo">
+                        Не отбеливать, 110 граудсов утюга, барабаннная<br>сушка запрещена, щядащая сухая чистка, химчистка<br>деликатный материал требует бережного обращения
+                    </a>
+                </div>
+            </div>
+            <div class="blackline"></div>
+        </div>
+        <div class="contforthisoutfit" style="margin-bottom: 16px">
+            <a class="">Этот образ</a>
+            <div class="blackline mar_plus"></div>
+        </div>
+        <div class="container" style="margin-bottom: 20px;">
+            <div class="row" style="row-gap: 3px; column-gap: 6px;">
+                <div onclick="window.location.href = 'Sreda-Card.html';" class="col p-0 Card rounded-0">
+                    <img src="Assets/PNG/OUTFIT1.png" style="max-width: 100%;">
+                    <div class="description4card">
+                        <div style="width: 100%; margin-bottom: 5px; display: flex; justify-content: space-between;">
+                            <a class="titlecloth" style="margin-left: 9px;">Жакет с бахромой</a>
+                            <object style="margin-right: 9px;" type="image/svg+xml" data="Assets/SVG/LittleStar.svg"></object>
+                        </div>
+                        <a class="priceofcloth" style="margin-left: 9px; margin-bottom: 8px;">15 0000₽</a>
+                    </div>
+                </div>
+                <div onclick="window.location.href = 'Sreda-Card.html';" class="col p-0 Card rounded-0">
+                    <img src="Assets/PNG/OUTFIT2.png" style="max-width: 100%;">
+                    <div class="description4card">
+                        <div style="width: 100%; margin-bottom: 5px; display: flex; justify-content: space-between;">
+                            <a class="titlecloth" style="margin-left: 9px;">Юбка</a>
+                            <object style="margin-right: 9px;" type="image/svg+xml" data="Assets/SVG/LittleStar.svg"></object>
+                        </div>
+                        <a class="priceofcloth" style="margin-left: 9px; margin-bottom: 8px;">7 0000₽</a>
+                    </div>
+                </div>
+                <div class="w-100"></div>
+            </div>
+        </div>
+
+    </main>
+</body>
+<script src="Assets/Scripts/Open-Close-BMenu.js"></script>
+<script src="Assets/Scripts/Swiper.js"></script>
+<script src="Assets/Scripts/ChooseSize.js"></script>

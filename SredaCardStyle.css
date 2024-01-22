@@ -1,0 +1,328 @@
+.swiper{
+	width: 100%;
+	height: 563px;
+	background-color: #F1EDE6;
+	display: flex;
+	flex-direction: row;		
+	align-items: center;
+	justify-content: space-between;
+    margin-bottom: 15px;
+}
+.swiper-slide{
+    height: 529px;
+	width: 100%;
+	background-color: #F1EDE6;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.picinswiper{
+    width: 390px;
+    height: 529px;
+    z-index: 1000;
+}
+
+.swiper-pagination-bullet {
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    opacity: 1;
+    background: #9b9894;
+    width: 66px;
+    height: 1px;
+    border-radius: 0;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #191919;
+  }
+
+.TextForTitleCard{
+    font-family: 'Jost', sans-serif;
+    color: #191919;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 20px */
+}
+.TextForCostCard{
+    color: #000;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-style: Medium;
+    font-weight: 500;
+    line-height: normal; 
+}
+.discriptionCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 24px;
+    gap: 16px;
+}
+.BlockDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+}
+.AddInCart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 64px;
+    flex-shrink: 0;
+    border: 1px solid var(--, #191919);
+    background: #191919;
+    color: #F1EDE6;
+    font-family: 'Jura', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.contforbutton{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+}
+.contforSwiper{
+    position: relative;
+}
+.imgRU{
+    left: 0;
+    top: 0;
+    margin-top: 8px;
+    margin-left: 10px;
+    position: absolute;
+    z-index: 100;
+}
+.sizecontswiper{
+    padding: 6px 10px;
+    background: #DDD9CF;
+    position: absolute;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 100%;
+    color: #191919;
+    margin-bottom: 40px;
+    margin-right: 10px;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+}
+.circlecolorbl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: #191919 solid 1px;
+}
+.circlecolorwh{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    background-color: #9A6144;
+}
+.RowCont{
+    display: flex;
+    justify-content: start;
+    gap: 18px;
+    align-items: center;
+}
+
+.TextforBlock{
+    font-family: 'Jost', sans-serif;
+    color: #191919;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%; /* 20px */
+}
+#crosstext{
+    color: #191919;
+    opacity: 0.7;
+    text-decoration: line-through;
+}
+#redtext{
+    color: #B60300;
+}
+.sizesquare{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #DDD9CF;
+    transition: 0.1s ease-in all;
+    cursor: pointer;
+}
+.sizesquare:hover{
+    scale: 1.1;
+}
+.sizetext{
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+    color: #191919;
+    font-weight: 400;
+}
+.contforallinfo{
+    padding-left: 9px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 52px;
+}
+.contforfirstinfo{
+    transition: all 0.5s ease-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    overflow: hidden;
+}
+.contfortitleinfo{
+    margin-bottom: 16px;
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #191919;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%; /* 20px */
+}
+.blackline{
+    width: 100%;
+    height: 1px;
+    background-color: #191919;
+}
+.contforsecondinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+}
+.textforsecondinfo{
+    width: 100%;
+    color: #191919;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%; /* 16px */
+    opacity: 0.7;
+}
+
+th{
+    padding: 8px 12px 24px 12px;
+    border-bottom: solid #191919 1px;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 16px */
+    color: #191919;
+}
+td{
+    padding: 4px 12px 4px 12px;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 16px */
+    color: #191919;
+}
+.tableSize{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+.tablefirst{
+    padding-left: 0px;
+}
+.tablefirstheader{
+    text-align: start;
+}
+.tablelast{
+    padding-right: 0px;
+}
+.tablelastheader{
+    text-align: center;
+}
+.firstelement{
+    padding-top: 8px;
+}
+.lastelement{
+    padding-bottom: 0px;
+}
+.BoldTextInfo{
+    color: #191919;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+.contforthisoutfit{
+    padding: 0px 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    color: #191919;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 20px */
+}
+.titlecloth{
+    color: #191919;
+    font-family: 'Jost', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.priceofcloth{
+    color: #191919;
+    font-family: 'Jost', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;  
+}
+#descr{
+    margin-bottom: 16px;
+}
+#ruleChildinfo{
+    margin-bottom: 16px;
+}
+.contforcost{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
